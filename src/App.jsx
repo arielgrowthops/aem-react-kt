@@ -5,6 +5,7 @@ import Slide3 from "./pages/slide3";
 import Slide4 from "./pages/slide4";
 import Slide5 from "./pages/slide5";
 import Slide6 from "./pages/slide6";
+import Exercise from "./pages/exercise";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="slide4" element={<Slide4 />} />
         <Route path="slide5" element={<Slide5 />} />
         <Route path="slide6" element={<Slide6 />} />
+        <Route path="exercise" element={<Exercise />} />
       </Routes>
     </BrowserRouter>
   )
